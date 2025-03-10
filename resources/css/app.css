@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: Neco;
+        src: url("[public/fonts/neco/Neco-Black.ttf]") format("ttf");
+    }
+    @font-face {
+        font-family: Bonny;
+        src: url("[public/fonts/bonny/Bonny-Bold.ttf]") format("ttf");
+    }
+}
