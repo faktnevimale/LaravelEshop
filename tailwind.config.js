@@ -32,7 +32,7 @@ export default {
             'gray-light': '#d3dce6',
         },
         fontFamily: {
-            "Bonny" : ["Bonny"]
+            "Neco" : ["Neco"]
         },
         extend: {
             spacing: {

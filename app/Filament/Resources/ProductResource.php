@@ -29,21 +29,31 @@ class ProductResource extends Resource
                 ->maxLength(255),
 
                 Forms\Components\TextArea::make('description')
-                ->label('Description')
-                ->required(),
-
-                Forms\Components\TextArea::make('price')
-                ->label('Price')
-                ->required()
-                ->numeric(),
-
-                Forms\Components\TextArea::make('in_stock')
-                    ->label('Stock')
+                    ->label('Description')
                     ->required()
-                    ->numeric(),
+                    ->maxLength(1000),
 
-            Forms\Components\FileUpload::make('image')
-                ->label('Image')
+                    // Formulář pro cenu produktu
+                    Forms\Components\TextInput::make('price')
+                    ->label('Price')
+                    ->required()
+                    ->numeric()
+                    ->step(0.01)
+                    ->helperText('Enter the product price'),
+
+
+            // Formulář pro dostupnost na skladě
+            Forms\Components\TextInput::make('in_stock')
+            ->label('In Stock')
+            ->required(),
+               // Formulář pro SKU (Stock Keeping Unit)
+            Forms\Components\TextInput::make('sku')
+                    ->label('SKU')
+                    ->required()
+                    ->maxLength(255),
+
+            Forms\Components\FileUpload::make('Photo')
+                ->label('Photo')
                 ->image()
                 ->directory('gallery') // Určuje složku pro ukládání souboru
                 ->maxSize(5120) // Maximální velikost souboru (5MB)
@@ -101,4 +111,3 @@ class ProductResource extends Resource
         ];
     }
 }
-
