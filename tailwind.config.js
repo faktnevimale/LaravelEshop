@@ -45,27 +45,7 @@ export default {
         }
     },
     plugins: [
-        require("@tailwindcss/typography"),
-        Unfonts.default.vite({
-            custom: {
-                families: [
-                    {
-                        name: "Neco",
-                        local: "Neco",
-                        src: "./public/fonts/Neco-Bold.ttf",
-                    },
-                    {
-                        name: "Bonny",
-                        local: "Bonny",
-                        src: "./public/fonts/Bonny-Bold.ttf",
-                    },
-                    {
-                        name: "ClashDisplay",
-                        local: "ClashDisplay",
-                        src: "./public/fonts/ClashDisplay-Bold.ttf",
-                    },
+        
                 ],
-            },
-        }),
-    ],
+        
 };

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Neco;
+    src: url("[public/fonts/neco/Neco-Black.ttf]") format("ttf");
+}
+@font-face {
+    font-family: Bonny;
+    src: url("public/fonts/bonny/Bonny-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: ClashDisplay;
+    src: url("public/fonts/clash/ClashDisplay-Bold.ttf") format("ttf");
+}

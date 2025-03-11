@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 @section('content')
@@ -9,7 +10,7 @@
         
         <!-- Text vycentrovaný přes obrázek -->
         <div class="absolute inset-0 flex items-center justify-center">
-            <h1 class="font-Bonny text-white text-5xl font-bold text-center">Vítejte na naší stránce!</h1>
+            <h1 class="font-Neco text-white text-5xl font-bold text-center">Vítejte na naší stránce!</h1>
         </div>
     </div>
 
