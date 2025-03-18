@@ -40,6 +40,43 @@
                 Ano, nabízíme vrácení peněz do 30 dnů od zakoupení, pokud nejste s produktem spokojeni.
             </div>
         </div>
+
+        <!-- Čtvrtý dotaz -->
+        <div>
+            <button class="w-full text-left text-xl font-medium text-white bg-gray-700 px-6 py-4 rounded-lg flex justify-between items-center"
+                    onclick="toggleAnswer(this)">
+                Jak dlouho trvá zpracování mé žádosti?
+                <span class="ml-4">+</span>
+            </button>
+            <div class="hidden mt-2 text-gray-700 px-6">
+                Zpracování žádosti obvykle trvá 1-2 pracovní dny. Budeme vás informovat e-mailem.
+            </div>
+        </div>
+
+        <!-- Pátý dotaz -->
+        <div>
+            <button class="w-full text-left text-xl font-medium text-white bg-gray-700 px-6 py-4 rounded-lg flex justify-between items-center"
+                    onclick="toggleAnswer(this)">
+                Jak dlouho trvá zpracování mé žádosti?
+                <span class="ml-4">+</span>
+            </button>
+            <div class="hidden mt-2 text-gray-700 px-6">
+                Zpracování žádosti obvykle trvá 1-2 pracovní dny. Budeme vás informovat e-mailem.
+            </div>
+        </div>
+
+        <!-- Šestý dotaz -->
+        <div>
+            <button class="w-full text-left text-xl font-medium text-white bg-gray-700 px-6 py-4 rounded-lg flex justify-between items-center"
+                    onclick="toggleAnswer(this)">
+                Jak dlouho trvá zpracování mé žádosti?
+                <span class="ml-4">+</span>
+            </button>
+            <div class="hidden mt-2 text-gray-700 px-6">
+                Zpracování žádosti obvykle trvá 1-2 pracovní dny. Budeme vás informovat e-mailem.
+            </div>
+        </div>
+        
     </div>
 </div>
 
