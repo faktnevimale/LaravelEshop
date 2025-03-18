@@ -37,7 +37,7 @@
                 <span class="ml-4">+</span>
             </button>
             <div class="hidden mt-2 text-gray-700 px-6">
-                Ano, nabízíme vrácení peněz do 30 dnů od zakoupení, pokud nejste s produktem spokojeni.
+                Ano, pokud nejste s produktem spokojeni, nabízíme vrácení peněz do 30 dnů od zakoupení.
             </div>
         </div>
 
@@ -45,11 +45,11 @@
         <div>
             <button class="w-full text-left text-xl font-medium text-white bg-gray-700 px-6 py-4 rounded-lg flex justify-between items-center"
                     onclick="toggleAnswer(this)">
-                Jak dlouho trvá zpracování mé žádosti?
+                    Kdy mi bude zboží doručeno?
                 <span class="ml-4">+</span>
             </button>
             <div class="hidden mt-2 text-gray-700 px-6">
-                Zpracování žádosti obvykle trvá 1-2 pracovní dny. Budeme vás informovat e-mailem.
+                Zboží většinou obdržíte do 2 pracovních dní.
             </div>
         </div>
 
@@ -57,11 +57,11 @@
         <div>
             <button class="w-full text-left text-xl font-medium text-white bg-gray-700 px-6 py-4 rounded-lg flex justify-between items-center"
                     onclick="toggleAnswer(this)">
-                Jak dlouho trvá zpracování mé žádosti?
+                    Zasíláte zboží na Slovensko?
                 <span class="ml-4">+</span>
             </button>
             <div class="hidden mt-2 text-gray-700 px-6">
-                Zpracování žádosti obvykle trvá 1-2 pracovní dny. Budeme vás informovat e-mailem.
+                Ano, pokud objednávka nepřesáhne hodnotu 3000 Kč bez DPH ,bude připočítán manipulační poplatek (poštovné) podle platného ceníku PPL, který je součástí obchodních podmínek pro dodávky v SR.
             </div>
         </div>
 
@@ -69,11 +69,11 @@
         <div>
             <button class="w-full text-left text-xl font-medium text-white bg-gray-700 px-6 py-4 rounded-lg flex justify-between items-center"
                     onclick="toggleAnswer(this)">
-                Jak dlouho trvá zpracování mé žádosti?
+                Co vše je potřeba k uplatnění reklamace?
                 <span class="ml-4">+</span>
             </button>
             <div class="hidden mt-2 text-gray-700 px-6">
-                Zpracování žádosti obvykle trvá 1-2 pracovní dny. Budeme vás informovat e-mailem.
+                Reklamační řízení může být zahájeno, jestliže zákazník předloží kompletní reklamované zboží, prokáže nákup reklamovaného zboží dokladem o nákupu a doloží vyplněný reklamační list.
             </div>
         </div>
         
@@ -86,6 +86,12 @@ function toggleAnswer(button) {
     const isHidden = answer.classList.contains('hidden');
     answer.classList.toggle('hidden');
     button.querySelector('span').textContent = isHidden ? '−' : '+';
+
+    
+
 }
 </script>
 @endsection
+
+
+
