@@ -10,13 +10,13 @@
         
         <!-- Text vycentrovaný přes obrázek -->
         <div class="absolute inset-0 flex items-center justify-center">
-            <h1 class="font-Neco text-white text-5xl font-bold text-center">Vítejte na naší stránce!</h1>
+            <h1 class="text-white text-5xl font-bold text-center font-Bonny">Vítejte na naší stránce!</h1>
         </div>
     </div>
 
     <!-- Why Choose Us Section -->
     <div class="py-10 text-center bg-gray-100">
-        <h2 class="text-3xl font-semibold">Proč nakupovat u nás?</h2>
+        <h2 class="text-3xl font-semibold ">Proč nakupovat u nás?</h2>
         <p class="mt-4 text-lg text-gray-700">Nabízíme nejlepší produkty za nejlepší ceny!</p>
         <div class="mt-6 flex flex-wrap justify-center gap-6">
             <div class="bg-white shadow-md rounded-lg p-6 max-w-xs">

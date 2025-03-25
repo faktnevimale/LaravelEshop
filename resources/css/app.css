@@ -1,8 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "./fonts.css";
 
-@layer base{
- 
-}
+
+
+
+  
+
+    @font-face {
+        font-family: Bonny;
+        src: url("/public/fonts/bonny/Bonny-Bold.ttf");
+        
+    }
+    
+    @font-face {
+        font-family: ClashDisplay;
+        src: url("/public/fonts/clash/ClashDisplay-Bold.ttf") ;
+    }
+    @font-face {
+        font-family: Neco;
+        src: url("/public/fonts/neco/Neco-Black.ttf");
+        color: black;
+    }
+    
