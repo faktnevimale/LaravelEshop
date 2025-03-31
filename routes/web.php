@@ -8,6 +8,9 @@ use App\Http\Controllers\ContactController;
 use App\Models\Question;
 use App\Http\Controllers\QuestionController;
 
+Route::get('/contacts', [ContactController::class, 'index'])->name('contacts.index');
+
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
