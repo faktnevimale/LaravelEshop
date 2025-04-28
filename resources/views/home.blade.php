@@ -68,7 +68,7 @@
                     slidesPerView: 3,
                 },
             },
-            loop: true, // Přidá loop efekt
+            loop: true, 
         });
     </script>
 @endpush
